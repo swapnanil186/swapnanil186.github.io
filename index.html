@@ -1,1 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Swapnanil Mandal's Portfolio</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+<style>
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f3f5f9;
+    overflow-x: hidden; /* Disable horizontal scrollbar */
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+}
+
+.section {
+    margin-bottom: 30px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+.section-header {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 10px 10px 0 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.section-header h2 {
+    margin: 0;
+}
+
+.section-content {
+    padding: 20px;
+}
+
+/* Button styles */
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+/* Scroll to top button */
+#scroll-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    cursor: pointer;
+    display: none;
+    z-index: 99;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+#scroll-to-top:hover {
+    background-color: #0056b3;
+}
+</style>
+</head>
+<body>
+
+<div class="container">
+    <!-- Header -->
+    <div class="header">
+        <h1>Swapnanil Mandal</h1>
+        <p>Data Science Enthusiast | Python Developer</p>
+    </div>
+
+    <!-- Objective Section -->
+    <div class="section" id="objective">
+        <div class="section-header">
+            <h2>Objective</h2>
+        </div>
+        <div class="section-content">
+            <p>I am a passionate and motivated individual with a strong interest in data science and Python development. I am eager to contribute my skills and knowledge to exciting projects and grow professionally in the field.</p>
+        </div>
+    </div>
+
+    <!-- Contact Info -->
+    <div class="section" id="contact-info">
+        <div class="section-header">
+            <h2>Contact Information</h2>
+        </div>
+        <div class="section-content">
+            <div class="contact-info"><i class="fas fa-map-marker-alt"></i> Kolkata, India</div>
+            <div class="contact-info"><i class="fas fa-envelope"></i> <a href="mailto:swapnanilofficial@gmail.com">swapnanilofficial@gmail.com</a></div>
+            <div class="contact-info"><i class="fas fa-phone"></i> +918653538967</div>
+            <div class="contact-info"><i class="fab fa-linkedin"></i> <a href="https://linkedin.com/in/swapnanil-mandal" target="_blank">linkedin.com/in/swapnanil-mandal</a></div>
+            <div class="contact-info"><i class="fab fa-github"></i> <a href="https://github.com/swapnanil186" target="_blank">github.com/swapnanil186</a></div>
+            <div class="contact-info"><i class="fab fa-hackerrank"></i> <a href="https://www.hackerrank.com/profile/swapnanilmandal2" target="_blank">HackerRank Profile</a></div>
+        </div>
+    </div>
+
+    <!-- Education Section -->
+    <div class="section" id="education">
+        <div class="section-header">
+            <h2><i class="fas fa-graduation-cap"></i> Education</h2>
+        </div>
+        <div class="section-content">
+            <div class="edu-item">
+                <strong>St. Xavier's College (Autonomous), Kolkata (2023-2027)</strong>
+                  <p>Bachelor of Science (Hons with research) in Statistics, Computer Science (Minor)<p>
+            </div>
+            <div class="edu-item">
+                <strong>WorldQuant University (2023-2024)</strong>
+                   <p>Applied Data Science Lab (16 Weeks) </p>             </div>
+        </div>
+    </div>
+
+    <!-- Skills Section -->
+    <div class="section" id="skills">
+        <div class="section-header">
+            <h2><i class="fas fa-code"></i> Skills</h2>
+        </div>
+        <div class="section-content">
+            <ul class="skills-list">
+                <li><strong>Languages:</strong> C, Python (In Progress - R, SQL)</li>
+                <li><strong>Libraries:</strong> Numpy, Pandas, Matplotlib, JSON, Beautiful Soup</li>
+                <li><strong>Developer Tools:</strong> VS code, Jupyter Notebook, Git & GitHub</li>
+                <li><strong>Analytical Skills:</strong> Descriptive Statistics, Data Analysis, Probability & Probability Distribution</li>
+                <li>Other Tools: Minitab, MS Excel, LaTeX, MS PowerPoint</li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Experience Section -->
+    <div class="section" id="experience">
+        <div class="section-header">
+            <h2><i class="fas fa-briefcase"></i> Experience</h2>
+        </div>
+        <div class="section-content">
+            <div class="exp-item">
+                <strong>Python Developer Intern (Feb 2024, 4 weeks)</strong>
+                <em>CodSoft, Remote</em>
+                <ul>
+                    <li>Simple Calculator: Developed a user-friendly calculator for basic arithmetic operations.</li>
+                    <li>To-Do List Application: Created a task management app with add, delete, and edit features.</li>
+                    <li>Contact Book: Built a system for storing and retrieving contact details.</li>
+                    <li>Rock-Paper-Scissors Game: Developed an interactive, user-friendly game.</li>
+                    <li>Password Generator: Programmed a secure password generator with customizable options.</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- Projects Section -->
+    <div class="section" id="projects">
+        <div class="section-header">
+            <h2><i class="fas fa-laptop-code"></i> Projects</h2>
+        </div>
+        <div class="section-content">
+            <div class="project-item">
+                <strong>Personal Finance Tracker Application | Python, Tkinter, JSON (Jan, 2024)</strong>
+                <ul>
+                    <li>Developed a robust Personal Finance Tracker Application using Python, Tkinter GUI toolkit & JSON (for data storage).</li>
+                    <li>The application allows users to input their monthly income, record expenses, and view detailed insights into their spending habits.</li>
+                    <li>Implemented features include monthly budget allocation, real-time expense tracking, and analysis of spending patterns.</li>
+                    <li>Streamlined expense recording and analysis processes, leading to improved financial decision-making and savings management.</li>
+                </ul>
+            </div>
+            <div class="project-item">
+                <strong>Secure Password Manager Application | C (Jan, 2024)</strong>
+                <ul>
+                    <li>Developed a robust password manager application in C, ensuring data security through encryption and user authentication.</li>
+                    <li>Implemented industry-standard software development practices, including input validation and error handling, to enhance reliability.</li>
+                    <li>Demonstrated proficiency in C programming and security protocols, prioritizing secure memory handling and encryption algorithms.</li>
+                    <li>Delivered a user-friendly solution, reflecting meticulous attention to detail and a commitment to quality software development.</li>
+                </ul>
+            </div>
+            <div class="project-item">
+                <strong>YouTube Video Downloader | Python (Feb, 2024)</strong>
+                <ul>
+                    <li>A simple Python application that allows users to easily download YouTube videos to their local device.</li>
+                    <li>With an intuitive GUI, users can paste the video URL, select quality, specify download path, and initiate the download process.</li>
+                    <li>Provides feedback on progress and notifies upon completion.</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- Professional Engagements Section -->
+    <div class="section" id="engagements">
+        <div class="section-header">
+            <h2><i class="fas fa-users"></i> Professional Engagements</h2>
+        </div>
+        <div class="section-content">
+            <div class="eng-item">
+                <strong>BCGX (March 2024): </strong>
+                <em> BCG GenAI Job Simulation on Forage</em>
+                <p>Developed an AI-powered financial chatbot using Python programming, including the use of libraries such as pandas for data manipulation for integrating and interpreting complex financial data from 10-K and 10-Q reports, employing rule-based logic, provides user-friendly financial insights and analysis.</p>
+            </div>
+            <div class="eng-item">
+                <strong>BCG (Jan 2024): </strong>
+                <em>Introduction to Strategy Consulting Job Simulation on Forage</em>
+                <p>Used effective brainstorm strategies to generate ideas to help a fictional luxury clothing company increase sales revenue.</p>
+            </div>
+            <div class="eng-item">
+                <strong>British Airways (Feb 2024): </strong>
+                <em>Data Science Job Simulation on Forage</em>
+                <p>Scraped and analyzed customer review data to uncover findings. Built a predictive model to understand factors that influence buying behavior.</p>
+            </div>
+        </div>
+    </div>
+
+  
+  <!-- Certificates Section -->
+  <div class="section" id="certificates">
+      <div class="section-header">
+          <h2><i class="fas fa-certificate"></i> Certificates</h2>
+      </div>
+      <div class="section-content">
+          <ul>
+              <li>
+                  <div class="certificate-item">
+                      <strong>CS50, CS50P, CS50AI from Harvard University (2024)</strong>
+                  </div>
+              </li>
+              <li>
+                  <div class="certificate-item">
+                      <strong>Pre-MBA in Statistics & Leadership Skills, IIM Ahmedabad (2024)</strong>
+                  </div>
+              </li>
+              <li>
+                  <div class="certificate-item">
+                      <strong>Introduction to Statistics, Stanford University (2023)</strong>
+                  </div>
+              </li>
+          </ul>
+      </div>
+  </div>
+  <!-- Achievements Section -->
+  <div class="section" id="achievements">
+      <div class="section-header">
+          <h2><i class="fas fa-trophy"></i> Achievements</h2>
+      </div>
+      <div class="section-content">
+          <ul>
+              <li>
+                  <div class="achievement-item">
+                      <strong>5 Star Gold badge in Python on HackerRank (2024)</strong>
+                  </div>
+              </li>
+              <li>
+                  <div class="achievement-item">
+                      <strong>5 Star Gold badge in C on HackerRank (2024)</strong>
+                  </div>
+              </li>
+              <li>
+                  <div class="achievement-item">
+                  <strong>3 Star Gold badge in SQL on HackerRank (2024)</strong>
+                </div>
+                </li>
+                <li>
+                  <div class="achievement-item">
+                      <strong>Top 1% in Senior Secondary Examination in India (2023)</strong>
+                      (100% in Mathematics)
+                  </div>
+              </li>
+              <li>
+                  <div class="achievement-item">
+                      <strong>Certificate of Excellence on Python Skill Assessment by SCALER (2024)</strong>
+                  </div>
+              </li>
+          </ul>
+      </div>
+  </div>
+
+  <!-- Co-Curricular Activities Section -->
+  <div class="section" id="co-curricular">
+      <div class="section-header">
+          <h2><i class="fas fa-graduation-cap"></i> Co-curricular Activities</h2>
+      </div>
+      <div class="section-content">
+          <ul>
+              <li>
+                  <div class="activity-item">
+                      <strong>Participant in Shri Ram Trading Challenge (2023)</strong>
+                  </div>
+              </li>
+              <li>
+                  <div class="activity-item">
+                      <strong>Student Member in Royal Statistical Society, UK (2023)</strong>
+                  </div>
+              </li>
+          </ul>
+      </div>
+  </div>
+
+  <!-- Scroll to top button -->
+  <button id="scroll-to-top" title="Go to top"><i class="fas fa-arrow-up"></i></button>
+
+  <script>
+  // Scroll to top button functionality
+  window.onscroll = function() {scrollFunction()};
+
+  function scrollFunction() {
+      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+          document.getElementById("scroll-to-top").style.display = "block";
+      } else {
+          document.getElementById("scroll-to-top").style.display = "none";
+      }
+  }
+
+  document.getElementById("scroll-to-top").addEventListener("click", function() {
+      document.body.scrollTop = 0;
+      document.documentElement.scrollTop = 0;
+  });
+  </script>
+
+  </div>
+
+  </body>
+  </html>
 
